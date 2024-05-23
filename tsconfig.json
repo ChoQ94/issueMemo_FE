@@ -5,6 +5,10 @@
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
+    "noImplicitAny": true,
+    "strictFunctionTypes": true, // 함수파라미터 타입체크 강하게
+    "noUnusedLocals": true, // 미사용 지역변수 캐치
+    "noUnusedParameters": true, // 미사용 파라미터 캐치
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
